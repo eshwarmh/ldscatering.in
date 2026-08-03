@@ -1,171 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>LDS Catering | Coming Soon</title>
-
-    <meta name="description"
-          content="LDS Catering – Delicious food for beautiful celebrations. Coming soon.">
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            min-height: 100vh;
-            font-family: Georgia, "Times New Roman", serif;
-            background:
-                linear-gradient(
-                    rgba(45, 25, 12, 0.72),
-                    rgba(45, 25, 12, 0.72)
-                ),
-                url("https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=2000&q=85");
-
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-        }
-
-        .overlay {
-            width: 100%;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 30px;
-        }
-
-        .content {
-            max-width: 700px;
-        }
-
-        .logo {
-            font-family: Arial, sans-serif;
-            font-size: 18px;
-            font-weight: bold;
-            letter-spacing: 5px;
-            color: #e7c477;
-            margin-bottom: 35px;
-            text-transform: uppercase;
-        }
-
-        .content h1 {
-            font-size: clamp(55px, 10vw, 100px);
-            line-height: 1;
-            margin-bottom: 20px;
-            font-weight: normal;
-        }
-
-        .content h2 {
-            font-family: Arial, sans-serif;
-            font-size: clamp(18px, 3vw, 26px);
-            font-weight: 300;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: #f0d79a;
-            margin-bottom: 28px;
-        }
-
-        .divider {
-            width: 80px;
-            height: 2px;
-            background: #d4af5a;
-            margin: 0 auto 28px;
-        }
-
-        .content p {
-            font-family: Arial, sans-serif;
-            font-size: 18px;
-            line-height: 1.7;
-            color: #f5f5f5;
-            margin-bottom: 35px;
-        }
-
-        .coming {
-            display: inline-block;
-            padding: 14px 30px;
-            border: 1px solid #d4af5a;
-            color: #f0d79a;
-            font-family: Arial, sans-serif;
-            font-size: 13px;
-            font-weight: bold;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
-
-        .footer {
-            position: absolute;
-            bottom: 25px;
-            width: 100%;
-            font-family: Arial, sans-serif;
-            font-size: 12px;
-            color: rgba(255,255,255,0.65);
-            letter-spacing: 1px;
-        }
-
-        @media (max-width: 600px) {
-
-            .content h1 {
-                font-size: 58px;
-            }
-
-            .content h2 {
-                font-size: 16px;
-                letter-spacing: 2px;
-            }
-
-            .content p {
-                font-size: 15px;
-            }
-
-            .logo {
-                margin-bottom: 25px;
-            }
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sri Annapurneshwari Catering | Premium South Indian Catering</title>
+    <meta name="description" content="Authentic South Indian catering for weddings, corporate events, and celebrations in Chintamani, Karnataka." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
 
-    <div class="overlay">
-
-        <div class="content">
-
-            <div class="logo">
-                LDS Catering
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar glass" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🪷</span>
+                <span class="logo-text">Sri Annapurneshwari</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="testimonials.html">Reviews</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
+        </div>
+    </nav>
 
-            <h1>Coming Soon</h1>
-
-            <div class="divider"></div>
-
-            <h2>Wedding • Marriage • Celebrations</h2>
-
-            <p>
-                Delicious food. Beautiful celebrations.<br>
-                Something special is being prepared for you.
-            </p>
-
-            <div class="coming">
-                Website Launching Soon
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">✨ Premium Catering Since 2005</div>
+            <h1 class="hero-title">Authentic South Indian Catering for Every Celebration</h1>
+            <p class="hero-subtitle">From Weddings to Corporate Events, we serve delicious food with unmatched hospitality and premium quality.</p>
+            <div class="hero-buttons">
+                <a href="tel:+919980340771" class="btn btn-primary">📞 Call Now</a>
+                <a href="https://wa.me/919980340771" target="_blank" class="btn btn-secondary">💬 WhatsApp</a>
             </div>
-
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="20">0</span>
+                    <span class="stat-label">+ Years Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="500">0</span>
+                    <span class="stat-label">+ Events Served</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="200">0</span>
+                    <span class="stat-label">+ Menu Items</span>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="footer">
-            © 2026 LDS Catering · ldscatering.in
+    <!-- ===== ABOUT PREVIEW ===== -->
+    <section class="about-preview section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">Crafting Culinary Memories <br />Since 2005</h2>
+                <p class="section-desc">With over 20 years of experience, we bring authentic South Indian flavors to every celebration.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image glass">
+                    <img src="images/chef-team.jpg" alt="Our Expert Chefs" loading="lazy" />
+                    <div class="experience-badge">20+ Years</div>
+                </div>
+                <div class="about-content">
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">🌿</span>
+                            <span>Traditional Recipes</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🧑‍🍳</span>
+                            <span>Expert Chefs</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span>Premium Ingredients</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">⏱️</span>
+                            <span>Timely Service</span>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-primary">Read More →</a>
+                </div>
+            </div>
         </div>
+    </section>
 
-    </div>
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why-us section-padding" id="why">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why Choose Us</span>
+                <h2 class="section-title">The Sri Annapurneshwari <br />Difference</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card glass">
+                    <div class="why-icon">🧼</div>
+                    <h3>Hygienic Kitchen</h3>
+                    <p>Spotless, sanitized kitchens with strict quality control.</p>
+                </div>
+                <div class="why-card glass">
+                    <div class="why-icon">👨‍🍳</div>
+                    <h3>Experienced Chefs</h3>
+                    <p>Master chefs with decades of traditional cooking expertise.</p>
+                </div>
+                <div class="why-card glass">
+                    <div class="why-icon">🥇</div>
+                    <h3>Premium Ingredients</h3>
+                    <p>Only the finest, freshest ingredients sourced locally.</p>
+                </div>
+                <div class="why-card glass">
+                    <div class="why-icon">📋</div>
+                    <h3>Customized Menu</h3>
+                    <p>Tailored menus to match your taste and budget.</p>
+                </div>
+                <div class="why-card glass">
+                    <div class="why-icon">⏰</div>
+                    <h3>On Time Service</h3>
+                    <p>Punctual delivery and service you can rely on.</p>
+                </div>
+                <div class="why-card glass">
+                    <div class="why-icon">💰</div>
+                    <h3>Affordable Packages</h3>
+                    <p>Premium quality at prices that suit every budget.</p>
+                </div>
+                <div class="why-card glass">
+                    <div class="why-icon">🍛</div>
+                    <h3>Traditional Taste</h3>
+                    <p>Authentic, homestyle flavors that everyone loves.</p>
+                </div>
+                <div class="why-card glass">
+                    <div class="why-icon">🤝</div>
+                    <h3>Professional Staff</h3>
+                    <p>Well-trained, courteous staff for flawless service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- ===== SERVICES PREVIEW ===== -->
+    <section class="services-preview section-padding" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">Celebrate With <br />Our Best</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass">
+                    <div class="service-icon">💍</div>
+                    <h3>Wedding Catering</h3>
+                    <p>Grand feasts for your special day.</p>
+                </div>
+                <div class="service-card glass">
+                    <div class="service-icon">🎉</div>
+                    <h3>Reception</h3>
+                    <p>Elegant spreads for reception parties.</p>
+                </div>
+                <div class="service-card glass">
+                    <div class="service-icon">🎂</div>
+                    <h3>Birthday</h3>
+                    <p>Fun, flavorful food for all ages.</p>
+                </div>
+                <div class="service-card glass">
+                    <div class="service-icon">🏢</div>
+                    <h3>Corporate Events</h3>
+                    <p>Professional catering for offices.</p>
+                </div>
+                <div class="service-card glass">
+                    <div class="service-icon">🛕</div>
+                    <h3>Temple Functions</h3>
+                    <p>Traditional prasadam and feasts.</p>
+                </div>
+                <div class="service-card glass">
+                    <div class="service-icon">🏡</div>
+                    <h3>Housewarming</h3>
+                    <p>Celebrate new beginnings with good food.</p>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="services.html" class="btn btn-primary">View All Services →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS PREVIEW ===== -->
+    <section class="testimonials-preview section-padding" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card glass">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Amazing food! The wedding feast was unforgettable. Everyone loved the traditional taste."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Ramesh</span>
+                        <span class="author-location">Chintamani</span>
+                    </div>
+                </div>
+                <div class="testimonial-card glass">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Professional service and delicious food. Best catering in Chikkaballapur district!"</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Priya</span>
+                        <span class="author-location">Bengaluru</span>
+                    </div>
+                </div>
+                <div class="testimonial-card glass">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"They handled our corporate event perfectly. On time, hygienic, and tasty!"</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Mahesh</span>
+                        <span class="author-location">Kolar</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="testimonials.html" class="btn btn-secondary">Read All Reviews →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🪷</span>
+                        <span class="logo-text">Sri Annapurneshwari</span>
+                    </div>
+                    <p class="footer-tagline">Traditional Taste • Premium Quality • Memorable Celebrations</p>
+                    <p class="footer-address">
+                        Near Suma Hospital, Civil Bus Stand Road<br />
+                        Chintamani, Chikkaballapur District<br />
+                        Karnataka - 563125
+                    </p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><strong>📞 Phone:</strong> <a href="tel:+919980340771">+91 99803 40771</a></p>
+                    <p><strong>💬 WhatsApp:</strong> <a href="https://wa.me/919980340771" target="_blank">+91 99803 40771</a></p>
+                    <p><strong>✉️ Email:</strong> <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-map">
+                    <h4>Find Us</h4>
+                    <div class="map-placeholder glass">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31084.987654321!2d77.987654321!3d13.987654321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zQ2hpbnRhbWFuaSwgS2FybmF0YWth!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sri Annapurneshwari Catering. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
